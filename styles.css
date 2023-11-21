@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(36, 36, 85);
+    color: aliceblue;
+}
+
+.form-register {
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-register input {
+    border-radius: 25px;
+    padding: 2%;
+    padding-left: 3%;
+}
+
+.input-box{
+    padding-top: 3%;
+}
+
+.date-box {
+    padding-bottom: 5%;
+}
+
+.btn-send-box{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+#enviarBtn {
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+}
+
+#enviarBtn:hover{
+    background-color: rgb(108, 176, 253);
+    color: aliceblue;
+}
