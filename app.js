@@ -22,7 +22,7 @@ async function enviarDatosAlServidor(datos) {
 
 //Enviar form.
 function enviarFormulario() {
-  const nombre = document.getElementById('name').value;
+  const nombre = document.getElementById('nombre').value;
   const apellido = document.getElementById('apellido').value;
   const fechaNacimiento = document.getElementById('fechaNacimiento').value;
 
